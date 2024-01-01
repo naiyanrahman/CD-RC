@@ -22,8 +22,8 @@ This script provides a number of **useful** and **entertaining** features for us
 
 ***📸 ScreenShots***
 
-![Screenshot](https://github.com/naiyan-official/CD-RC/blob/7f7d943b3e346705ba71c48e89f5f273d077ad54/image/Screenshot_20230108_040816.png?raw=true)
-![Screenshot](https://github.com/naiyan-official/CD-RC/blob/7f7d943b3e346705ba71c48e89f5f273d077ad54/image/Screenshot_20230108_030342.png?raw=true)
+![Screenshot](https://github.com/naiyanrahman/CD-RC/blob/7f7d943b3e346705ba71c48e89f5f273d077ad54/image/Screenshot_20230108_040816.png?raw=true)
+![Screenshot](https://github.com/naiyanrahman/CD-RC/blob/7f7d943b3e346705ba71c48e89f5f273d077ad54/image/Screenshot_20230108_030342.png?raw=true)
 
 ## 💾 Installation
 
@@ -31,7 +31,7 @@ Follow these steps to install the script:
 
 ```sh
 cd ~
-git clone https://github.com/naiyan-official/CD-RC 
+git clone https://github.com/naiyanrahman/CD-RC 
 cd CD-RC
 ls 
 ```
