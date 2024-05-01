@@ -1,0 +1,23 @@
+version: "3"
+services:
+  windows:
+    image: dockurr/windows
+    container_name: vm1002
+    devices:
+      - /dev/kvm
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - 127.0.0.1:8007:8006
+      - 127.0.0.1:3400:3389/tcp
+      - 127.0.0.1:3400:3389/udp
+    stop_grace_period: 2m
+    restart: on-failure
+    volumes:
+      - ./storage:/storage
+      - ./custom.xml:/run/assets/win10x64.xml
+    environment:
+      VERSION: "win10"
+      RAM_SIZE: "8G"
+      CPU_CORES: "4"
+      ARGUMENTS: "-mem-prealloc -mem-path /storage/hugepages"
