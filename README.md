@@ -168,8 +168,7 @@ up
 * `bconf`: opens the `~/.bashrc` file in the `micro` text editor
 * `zconf`: opens the `~/.zshrc` file in the `micro` text editor
 
-`
-----------------------------------------------------------------------`
+
  
 ### [About](https://github.com/naiyan-official/CD-RC/blob/main/about.md)
 ### [References](https://github.com/naiyan-official/CD-RC/blob/main/ref.md)
